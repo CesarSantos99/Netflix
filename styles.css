@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#container{
+    background: url("./assets/fundo-netflix.jpg");
+}
+
+#cabecalho{
+    padding: 28px 56px;
+}
+
+.logo-netflix{
+    height: 50px;
+    width: 75px;
+}
+
+.botao-entrar {
+    background: #e50914;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 3px;
+    float: right;
+}
