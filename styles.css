@@ -55,6 +55,10 @@ h1 {
 .input {
     width: 500px;
     padding: 10px;
+    color: black;
+    font-size: 20px;
+    border-radius: 3px;
+    outline: none;
 }
 
 .botao-email {
@@ -81,8 +85,7 @@ h1 {
 }
 
 #rodape {
-    background-color: black;
-    border-top: 8px solid #303030;
+    background-color: #1C1C1C;
     padding: 100px 0;
 }
 
@@ -91,9 +94,9 @@ h2 {
     text-align: center;
 }
 
-.botao-pergunta {
+#botao-pergunta {
     width: 800px;
-    background-color: #303030;
+    background-color: black;
     height: 70px;
     border: 0;
     font-size: 25px;
@@ -103,11 +106,19 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    cursor: pointer;
 }
 
-.fechar {
+#fechar {
     height: 30px;
     float: right;
+    transform: rotate(45deg);
+}
+
+#fechar-girar {
+    height: 30px;
+    float: right;
+    transform: rotate(90deg);
 }
 
 #pergunta {
@@ -118,6 +129,7 @@ h2 {
     margin-top: 3px;
     padding: 24px;
     font-size: 24px;
+    display: none;
 }
 
 
